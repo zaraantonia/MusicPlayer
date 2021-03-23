@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="919.0">Artist</node>
+    <node x="288.0" y="699.0">StandardUser</node>
+    <node x="1343.0" y="0.0">Song</node>
+    <node x="288.0" y="0.0">User</node>
+    <node x="846.0" y="1437.0">MusicStuff</node>
+    <node x="0.0" y="1437.0">Database</node>
+    <node x="834.0" y="864.0">PremiumUser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PremiumUser" target="User">
+      <point x="0.0" y="-181.5" />
+      <point x="1066.0" y="674.0" />
+      <point x="726.3333333333334" y="674.0" />
+      <point x="175.33333333333337" y="324.5" />
+    </edge>
+    <edge source="Artist" target="User">
+      <point x="0.0" y="-126.5" />
+      <point x="134.0" y="674.0" />
+      <point x="375.66666666666663" y="674.0" />
+      <point x="-175.33333333333337" y="324.5" />
+    </edge>
+    <edge source="StandardUser" target="User">
+      <point x="0.0" y="-346.5" />
+      <point x="0.0" y="324.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="509.9999999999998" y="636.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
